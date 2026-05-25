@@ -1,0 +1,21 @@
+# local config — copy of config.example.yaml with real values
+config.yaml
+
+# secrets
+.env
+*.session
+*.session-journal
+
+# state
+data/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# editors
+.idea/
+.vscode/
+.DS_Store
